@@ -2,9 +2,9 @@ $(document).ready(function(){
     
     $(window).scroll(function(){
         
-        parallax();
-        if ($(window).width() <= 500){ 
-        $("section").removeClass("parallax-bg");
+        
+        if ($(window).width() > 500){ 
+            parallax();
         } 
     });
     
