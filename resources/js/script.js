@@ -3,7 +3,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         
         
-        if ($(window).width() > 500){ 
+        if ($(document).width() > 500){ 
             parallax();
         } 
     });
