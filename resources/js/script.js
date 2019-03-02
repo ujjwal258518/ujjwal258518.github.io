@@ -52,6 +52,9 @@ $(document).ready(function(){
         $(".parallax-bg").css("background-position", "center " + wScroll*0.5 + "px");
     };
     
+    if ($(window).width() <= 500){ 
+        $(".parallax-bg").removeClass("parallax-bg");
+    }    
     /* Mobile nav */
     
     $('.js--nav-icon').click(function(){
