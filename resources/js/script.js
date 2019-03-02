@@ -4,8 +4,8 @@ $(document).ready(function(){
         
         parallax();
         if ($(window).width() <= 500){ 
-        $(".parallax-bg").removeClass("parallax-bg");
-    } 
+        $("section").removeClass("parallax-bg");
+        } 
     });
     
     /* For the sticky navigation */
