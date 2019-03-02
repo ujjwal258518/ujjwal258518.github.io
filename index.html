@@ -373,8 +373,17 @@
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="vendors/js/wow.min.js"></script>
     <script>
-        wow = new WOW({ offset: 800})
-        new WOW().init();
+        wow = new WOW(
+            {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       800,          // default
+            mobile:       false,       // default
+            live:         true        // default
+            }
+         )
+        wow.init();
+        
     </script>
     <script src="resources/js/script.min.js"></script>
 
